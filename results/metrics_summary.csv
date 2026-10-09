@@ -1,0 +1,6 @@
+Metric,Blueprint Target,Achieved,Outcome
+mAP50,>= 0.70,0.692,Missed narrowly
+Inference Speed,< 1 second/image,6.95 ms/image,Met
+Precision,Not specified,0.797,Measured
+Recall,Not specified,0.636,Measured
+mAP50-95,Not specified,0.385,Measured

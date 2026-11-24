@@ -247,6 +247,35 @@ The presentation covers the project goals, dataset, technical approach, model pe
 
 ---
 
+## Trained Model Access
+
+SafeSight PPE uses a fine-tuned YOLO11n object detection model trained for 25 epochs on the Construction Site Safety dataset.
+
+**Download the trained model:**
+
+[SafeSight PPE — Trained Model (best.pt)](https://drive.google.com/file/d/1-ym2B0uaOuhaHRMqiSD3zMNNv6EyEril/view?usp=drive_link)
+
+### Running the Model in Google Colab
+
+1. Download `best.pt` using the link above.
+2. In your own Google Drive, create a folder named `SafeSight_PPE` inside `My Drive`.
+3. Upload `best.pt` into that folder.
+4. Open the SafeSight notebook in Google Colab.
+5. Run the environment setup cell.
+6. Run the model-loading cell to load the weights from Google Drive.
+7. Run the `analyze_ppe()` function definition cell.
+8. Run the Demo Runner to upload a construction-site image and generate a compliance report.
+
+**Expected model location:**
+
+`/content/drive/MyDrive/SafeSight_PPE/best.pt`
+
+The trained checkpoint allows the application to perform inference without repeating the 25-epoch training process.
+
+SafeSight is an experimental proof of concept intended to support human safety reviews, not replace them.
+
+---
+
 ## Repository Structure
 
 ```text

@@ -177,15 +177,21 @@ Several real construction images were used to test the completed workflow.
 
 ### Compliant PPE Example
 
-A test image visually showed three workers wearing hard hats and safety vests.
+A construction-site image showing three workers wearing hard hats and safety vests was analyzed using the final SafeSight model.
 
 The model detected:
 
 - 3 Persons
-- 4 Hardhats
+- 3 Hardhats
 - 3 Safety Vests
+- 0 NO-Hardhat detections
+- 0 NO-Safety Vest detections
 
-Because the number of detected hard hats exceeded the number of workers, SafeSight treated the result as a possible duplicate/conflict and returned `REVIEW REQUIRED`.
+Because there were no explicit missing-PPE detections, incomplete-coverage warnings, or conflicting counts, SafeSight returned:
+
+**NO PPE VIOLATIONS DETECTED**
+
+This result indicates that SafeSight did not identify PPE violations in the image. It does not guarantee that the worksite is completely safe.
 
 ### Missing PPE Example
 

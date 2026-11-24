@@ -227,6 +227,26 @@ Future improvements could include stronger person-to-PPE association, additional
 
 ---
 
+## Project Videos & Presentation
+
+### SafeSight PPE — Live Demonstration
+
+[Watch the 3–5 Minute SafeSight Demo](https://drive.google.com/file/d/1FVw5fzqNLVcIXlWGrMZSLGlT46nSFgE7/view?usp=drive_link)
+
+This narrated demonstration shows the SafeSight system processing three construction-site images, including compliant PPE, possible missing equipment, and a false-positive detection.
+
+### Final Project Presentation
+
+[Watch the Full Narrated Presentation](https://drive.google.com/file/d/12uWScRnwpQeZHN6IHgHkvr2heVSmDRLT/view?usp=drive_link)
+
+The presentation covers the project goals, dataset, technical approach, model performance, compliance-review logic, limitations, and live demonstration.
+
+### Presentation Slides
+
+[View Final Presentation PDF](docs/Presentation.pdf)
+
+---
+
 ## Repository Structure
 
 ```text

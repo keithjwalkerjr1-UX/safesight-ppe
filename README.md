@@ -258,6 +258,6 @@ safesight-ppe/
 ├── docs/
 │   ├── AI_usage_log.md
 │   └── proposal.pdf
-├── notebooks/
+├── Notebooks/
 │   └── SafeSight_PPE_POC.ipynb
 └── results/
